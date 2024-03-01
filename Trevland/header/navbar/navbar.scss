@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    h1 {
+        font-size: 32px;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    ul {
+        display: flex;
+        gap: 20px;
+        a {
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 900px){
+    nav {
+        ul {
+            display: none;
+        }
+    }
+}

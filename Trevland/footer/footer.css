@@ -1,0 +1,48 @@
+footer {
+  width: 100%;
+  max-height: 400px;
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #2694990A;
+}
+
+footer .footer_page_1 h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+footer .footer_page_1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.ficonka i {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+form input {
+  max-width: 130px;
+  padding: 7px;
+}
+
+.footer_page_3 ul li {
+  padding: 8px;
+}
+
+.footer_page_2 ul li {
+  padding: 8px;
+}
+/*# sourceMappingURL=footer.css.map */

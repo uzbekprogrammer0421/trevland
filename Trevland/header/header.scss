@@ -1,0 +1,80 @@
+@import url(./navbar/navbar.css);
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+    .header_bottom {
+        padding-top: 180px;
+
+        h2 {
+            max-width: 725px;
+            font-size: 65px;
+            font-weight: 700;
+            line-height: 78px;
+            color: #FFFFFF;
+        }
+
+        p {
+            max-width: 440px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            padding: 20px 0px;
+
+        }
+
+    }
+}
+@media (max-width: 900px){
+    header {
+        .header_bottom {
+            max-width: 804px;
+
+            flex-direction: column;
+            gap: 30px;
+            h2 {
+                font-size: 50px;
+                line-height: 55px;
+            }
+        }
+    }
+    .global_btn {
+        display: block;
+    }
+}
+@media (max-width: 448px){
+    nav {
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+@media (max-width: 658px){
+    .header_bottom {
+        padding-bottom: 30px;
+
+    }
+}
+@media (min-width: 900px){
+    .header_bottom {
+        padding-bottom: 30px;
+
+    }
+}
+@media (max-width: 556px){
+header {
+    .header_bottom {
+        h2 {
+            font-size: 35px;
+            line-height: 40px;
+        }
+    }
+}
+}
